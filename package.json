@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/server.js",
+  "bin": {
+    "trademe": "src/cli.js"
+  },
   "scripts": {
     "seed": "node src/cli.js seed",
     "delete": "node src/cli.js delete",
